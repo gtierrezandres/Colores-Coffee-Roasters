@@ -8,10 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ["ColoresFont", "sans-serif"],
+        regular: ["NormalFont", "sans-serif"]
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'colores-background': "url('../public/colores.png')",
       },
     },
   },
