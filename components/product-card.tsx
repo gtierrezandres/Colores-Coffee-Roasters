@@ -25,12 +25,13 @@ export default function ProductCard(CardProps: {
   price: string;
 }) {
   return (
-      <div className="my-[4vh] mx-14 
-      w-72 h-[31.5rem] 
+      <div className="my-[4vh] mx-10 
+      w-[18rem] h-[35rem]
       transform overflow-hidden rounded-[24px]
       bg-white dark:bg-slate-900 shadow-xl duration-300 hover:scale-105">
         <Image
-          className="w-full h-96 rounded-2xl"
+          className="w-full h-auto rounded-2xl"
+          priority
           src={CardProps.image}
           height="384"
           width="384"

@@ -8,7 +8,7 @@ type ComponentProp = {
 
 export default function SectionGroup({Component} : ComponentProp) {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center bg-gray-50 bg-opacity-95 rounded-[2rem] h-[80vh] mx-10 mb-28 sm:mb-40 scroll-mt-24"
+    <div className="flex flex-col md:flex-row items-center justify-center bg-gray-50 bg-opacity-95 rounded-[2rem] h-[85vh] mx-10 mb-28 sm:mb-40 scroll-mt-24"
     id="products">
       {coffee_types.map((coffee) => (
         <Component
@@ -22,4 +22,3 @@ export default function SectionGroup({Component} : ComponentProp) {
     </div>
   )
 }
-
