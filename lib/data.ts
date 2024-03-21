@@ -25,7 +25,7 @@ export const links = [
 
 export const coffee_types = [
   {
-    image: "/colores_pink.png",
+    image: "/images/colores_pink.png",
     title: "IPA Pink Bourbon Coffee",
     description: {
       notes: "Rose Water, Blonde Ale, Orange Blossom",
@@ -39,7 +39,7 @@ export const coffee_types = [
     price: "$25.00 USD"
   },
   {
-    image: "/colores_orange.png",
+    image: "/images/colores_orange.png",
     title: "Peachy Sunrise Coffee",
     description: {
       notes: "Peach, Mango, Milk Chocolate",

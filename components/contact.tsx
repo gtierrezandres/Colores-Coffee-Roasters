@@ -12,11 +12,11 @@ export default function Contact() {
   //   const { ref } = useSectionInView("Contact");
 
   return (
-    <div className="bg-gray-50 bg-opacity-95 rounded-[2rem] h-[80vh] mx-10 mb-28 sm:mb-40 scroll-mt-28 w-[56vw] flex flex-col items-center justify-center">
+    <div className="bg-gray-50 bg-opacity-95 rounded-[2rem] mx-10 mb-28 sm:mb-40 scroll-mt-24">
       <motion.section
         id="contact"
         //   ref={ref}
-        className="mb-20 sm:mb-28 max-w-[45rem] text-center"
+        className="mb-8 max-w-[45rem] text-center leading-7 mx-10"
         initial={{
           opacity: 0,
         }}
@@ -32,7 +32,7 @@ export default function Contact() {
       >
         <SectionHeading>Contact us</SectionHeading>
 
-        <p className="text-gray-700 -mt-6">
+        <p className="text-gray-700">
           Please contact us directly at{" "}
           <a className="underline" href="mailto:aeloguti@gmail.com">
             help@colores.com

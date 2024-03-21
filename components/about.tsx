@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <div
-      className="bg-gray-50 bg-opacity-95 rounded-[2rem] h-[80vh] mx-10 mb-28 sm:mb-40 scroll-mt-24"
+      className="bg-gray-50 bg-opacity-95 rounded-[2rem] mx-10 mb-28 sm:mb-40 scroll-mt-24"
       id="about"
     >
       <motion.section
-        className="max-w-[45rem] mx-10 text-center leading-8 text-black font-medium"
+        className="max-w-[45rem] mx-7 md:mx-10 mb-8 text-center md:leading-8 leading-6 text-black font-medium text-sm md:text-base"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}

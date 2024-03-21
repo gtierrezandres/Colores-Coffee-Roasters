@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
+            <a href="https://colorescoffee.co/" className="flex items-center">
               <span
                 className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white
                   font-custom
@@ -55,7 +55,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="https://instagram.com/colorescoffee"
                     className="hover:underline"
                   >
                     Instagram
@@ -86,7 +86,7 @@ export default function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
+            <a href="https://colorescoffee.co/" className="hover:underline">
               Colores Coffee Roasters™
             </a>
             . All Rights Reserved.
@@ -150,7 +150,7 @@ export default function Footer() {
               <span className="sr-only">Twitter page</span>
             </a>
             <a
-              href="#"
+              href="https://instagram.com/colorescoffee"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg

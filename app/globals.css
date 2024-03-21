@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'ColoresFont';
-  src: url('../public/assets/VictorMoscoso/VICTM___.TTF') format('truetype');
+  src: url('../public/fonts/VictorMoscoso/VICTM___.TTF') format('truetype');
 }
 
 @font-face {
   font-family: 'NormalFont';
-  src: url('../public/assets/Roboto/Roboto-Black.ttf') format('truetype');
+  src: url('../public/fonts/Roboto/Roboto-Black.ttf') format('truetype');
 }
 
 
