@@ -35,7 +35,7 @@ export default function Contact() {
         <p className="text-gray-700">
           Please contact us directly at{" "}
           <a className="underline" href="mailto:aeloguti@gmail.com">
-            help@colores.com
+            hello@colores.co
           </a>{" "}
           or through this form.
         </p>
