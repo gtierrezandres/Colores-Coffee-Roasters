@@ -13,7 +13,7 @@ const config: Config = {
         regular: ["NormalFont", "sans-serif"]
       },
       backgroundImage: {
-        'colores-background': "url('../public/images/pink_colores_background.png')",
+        'colores-background': "url('../public/images/pink_colores_background.jpg')",
       },
     },
   },
