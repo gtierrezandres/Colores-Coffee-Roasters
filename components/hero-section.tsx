@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { HiOutlineArrowDown } from "react-icons/hi";
+import ColoresLogo from "@/public/colores_logo.svg";
 
 export default function HeroSection() {
   const handleScroll = (section: string) => {
@@ -17,8 +18,14 @@ export default function HeroSection() {
       animate={{ opacity: 1, y: 0}}
       transition={{ delay: 0.125 }}
       >
+        <ColoresLogo 
+          className="fill-current text-[#F2BBE1]
+          md:w-[720px]
+          sm:w-[480px]
+          w-96"
+        />
         {/* line height (leading) is used for setting the y boundaries of text */}
-        <h1 className="font-custom text-[18vw] md:text-[20vh] text-[#F2BBE1] leading-none"> 
+        {/* <h1 className="font-custom text-[18vw] md:text-[20vh] text-[#F2BBE1] leading-none"> 
           COLORES
         </h1>
         <h2 className="text-[#F2BBE1]
@@ -26,7 +33,7 @@ export default function HeroSection() {
         sm:text-[1.8vw] sm:tracking-[3.5vw] sm:translate-x-[3.5vw]
         md:text-[2.5vh] md:tracking-[3.5vh] md:translate-x-[3.7vh] font-bold">
           COFFEE ROASTERS
-        </h2>
+        </h2> */}
         <button className="bg-white text-black font-semibold text-lg rounded-3xl tracking-wider p-2 px-8 mt-[3vh]
         shadow-lg focus:scale-110 hover:scale-[1.2] active:scale-105 hover:bg-gray-300  cursor-pointer transition duration-[250ms] z-10
         "
